@@ -23,7 +23,7 @@ const Info = props => (
 		</PanelHeader>
 		<img className="Info" src={info} alt="Info"/>
 		
-		<center>Версия: v1.2</center>
+		<center><h3>Версия: v1.2</h3></center>
 		
 	</Panel>
 );
