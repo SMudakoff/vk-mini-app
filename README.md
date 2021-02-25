@@ -1,34 +1,19 @@
-[<img width="134" src="https://vk.com/images/apps/mini_apps/vk_mini_apps_logo.svg">](https://vk.com/services)
+# VK Mini App Boilerplate
+**Небольшое проложение skt app на платформе VK Mini Apps.**
 
-# Create VK Mini App [![npm][npm]][npm-url] [![deps][deps]][deps-url]
+Чтобы понимать, что здесь происходит вы должны знать что такое VK Mini Apps,  ReactJS и React Redux.
 
-## How to install
+[Документация по VK Mini Apps](https://vk.com/dev/vk_apps_docs)
 
-### Create VK Mini App with gh-pages deploy
+[Документация по ReactJS](https://ru.reactjs.org/docs/getting-started.html)
 
-`npx @vkontakte/create-vk-mini-app <app-directory-name>`
+[Документация по React Redux](https://rajdee.gitbooks.io/redux-in-russian/content/)
 
-### Create VK Mini App with Zeit deploy
+## KIT:
+#### Что реализовано:
+— Поддержка темы нативного клиента;
+— Сохранение позиции скролла для панелей и элементов;
+— Scroll To Top (ios);
+— Отображение текущего расписания для группы.
 
-Firstly, you have to create Zeit account and connect it with your GitHub profile — https://zeit.co/
-
-`npx @vkontakte/create-vk-mini-app <app-directory-name> --zeit`
-
-### Create VK Mini App with Surge deploy
-
-Firstly, you have to create Surge account and Surge-domain — https://surge.sh/
-
-`npx @vkontakte/create-vk-mini-app <app-directory-name> --surge <surge-domain>`
-
-## How to start work with app
-
-Go to created folder and run:
-`yarn start` || `npm start` — this will start dev server with hot reload on `localhost:10888`.
-
-`yarn run build` || `npm run build` — this will build production bundle, with tree-shaking, uglify and all this modern fancy stuff
-
-[npm]: https://img.shields.io/npm/v/@vkontakte/create-vk-mini-app.svg
-[npm-url]: https://npmjs.com/package/@vkontakte/create-vk-mini-app
-
-[deps]: https://img.shields.io/david/vkcom/create-vk-mini-app.svg
-[deps-url]: https://david-dm.org/vkcom/create-vk-mini-app
+Остальные функции появляются по мере обновления приложения.
